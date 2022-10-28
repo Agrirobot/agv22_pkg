@@ -603,3 +603,9 @@ cd catkin_depth
 source devel/setup.bash
 rosrun depth_clustering show_objects_node --num_beams 16 --angle 10
 ```
+
+## GPS
+```
+sudo apt-get install ros-melodic-nmea-msgs 
+
+```
