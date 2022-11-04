@@ -1,5 +1,5 @@
 # config_Ariagv
-> Latest update  --  2022.10.25
+> Latest update  --  2022.11.04
 > 
 > 系统：Ubuntu 18.04
 
