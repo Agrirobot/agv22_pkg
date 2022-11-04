@@ -1,0 +1,51 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/agv-nav/ouster_test/devel/include/**",
+        "/home/agv-nav/agv22/devel/include/**",
+        "/home/agv-nav/cv_bridge_catkin/install/include/**",
+        "/home/agv-nav/agv-nav/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/agv-nav/agv-nav/src/navigation/amcl/include/**",
+        "/home/agv-nav/agv-nav/src/navigation/base_local_planner/include/**",
+        "/home/agv-nav/agv-nav/src/navigation/carrot_planner/include/**",
+        "/home/agv-nav/agv-nav/src/navigation/clear_costmap_recovery/include/**",
+        "/home/agv-nav/agv22/src/agv22_pkg/code_utils/include/**",
+        "/home/agv-nav/agv-nav/src/navigation/costmap_2d/include/**",
+        "/home/agv-nav/agv-nav/src/navigation/dwa_local_planner/include/**",
+        "/home/agv-nav/agv-nav/src/navigation/global_planner/include/**",
+        "/home/agv-nav/agv22/src/agv22_pkg/gps_serial/include/**",
+        "/home/agv-nav/agv-nav/src/CamVox/inertial-sense-ros/include/**",
+        "/home/agv-nav/agv-nav/src/CamVox/isee-preprocessing/include/**",
+        "/home/agv-nav/agv22/src/agv22_pkg/lidar_align/include/**",
+        "/home/agv-nav/agv22/src/agv22_pkg/lio_sam_devel/include/**",
+        "/home/agv-nav/agv-nav/src/Livox_SLAM/livox_relocalization/include/**",
+        "/home/agv-nav/agv22/src/agv22_pkg/lmps/include/**",
+        "/home/agv-nav/agv-nav/src/Livox_SLAM/livox_horizon_loam/include/**",
+        "/home/agv-nav/agv-nav/src/navigation/map_server/include/**",
+        "/home/agv-nav/agv-nav/src/navigation/move_base/include/**",
+        "/home/agv-nav/agv-nav/src/navigation/move_slow_and_clear/include/**",
+        "/home/agv-nav/agv-nav/src/navigation/nav_core/include/**",
+        "/home/agv-nav/agv-nav/src/navigation/navfn/include/**",
+        "/home/agv-nav/agv-nav/src/CamVox/isee-camvox/camvox/online/include/**",
+        "/home/agv-nav/ouster_test/src/ouster_lidar/ouster_ros/include/**",
+        "/home/agv-nav/agv-nav/src/navigation/rotate_recovery/include/**",
+        "/home/agv-nav/agv22/src/tf2_web_republisher-develop/include/**",
+        "/home/agv-nav/agv-nav/src/navigation/voxel_grid/include/**",
+        "/home/agv-nav/agv-nav/src/zed-open-capture/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

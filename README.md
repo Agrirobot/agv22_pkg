@@ -605,7 +605,14 @@ rosrun depth_clustering show_objects_node --num_beams 16 --angle 10
 ```
 
 ## GPS
+-[Eigen](https://blog.csdn.net/qfpkzheng/article/details/120190859)
+
 ```
 sudo apt-get install ros-melodic-nmea-msgs 
+
+sudo apt install libeigen3-dev
+
+sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
+
 
 ```

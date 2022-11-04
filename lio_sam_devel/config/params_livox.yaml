@@ -2,7 +2,7 @@ lio_sam:
 
   # Topics
   pointCloudTopic: "/velodyne_points"      # Point cloud data(ls:converted_velodyne_points,liosam:points_raw)
-  imuTopic: "/lmps/imu/data"                         # IMU data(liosam:imu_raw)
+  imuTopic: "lmps/imu/data"                         # IMU data(liosam:imu_raw)
   odomTopic: "odometry/imu"                   # IMU pre-preintegration odometry, same frequency as IMU
   gpsTopic: "odometry/gpsz"                   # GPS odometry topic from navsat, see module_navsat.launch file
 
@@ -39,7 +39,7 @@ lio_sam:
   imuRPYWeight: 0.01
 
   # Extrinsics: T_lb (lidar -> imu)
-  extrinsicTrans: [0.0, 0.0, 0.0]
+  extrinsicTrans: [0.3, 0.0, 0.0]
   extrinsicRot: [1, 0, 0,
                   0, 1, 0,
                   0, 0, 1]
